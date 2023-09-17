@@ -7,7 +7,7 @@ module.exports = {
     extend: {},
   },
   plugins: [ require('daisyui') ],
-  
+
   daisyui: {
     themes: [
       "light",
@@ -39,6 +39,28 @@ module.exports = {
       "night",
       "coffee",
       "winter",
+      {
+        mytheme: {
+
+"primary": "#ba9425",
+
+"secondary": "#53ed58",
+
+"accent": "#63aac6",
+
+"neutral": "#1c1e26",
+
+"base-100": "#343755",
+
+"info": "#5fa7ce",
+
+"success": "#1dcda7",
+
+"warning": "#e99f2f",
+
+"error": "#e8688f",
+        },
+      },
     ],
   },
 }
