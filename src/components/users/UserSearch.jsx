@@ -38,7 +38,7 @@ function UserSearch() {
               <input
                 type="text"
                 className="w-full pr-40 bg-gray-200 input input-lg text-black"
-                placeholder="Search"
+                placeholder="Search- enter any search term or username"
                 value={text}
                 onChange={handleChange}
               />
