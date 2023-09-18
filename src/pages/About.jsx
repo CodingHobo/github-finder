@@ -11,7 +11,7 @@ function About() {
       <p className='text-lg text-gray-400'>
         Tech Stack:
         <span
-          className='text-white'> React | Tailwind + Daisy UI | GitHub API
+          className='text-white'> React | Axios | GitHub API | Tailwind + Daisy UI
         </span>
       </p>
     </>

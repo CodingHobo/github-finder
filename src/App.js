@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import Alert from "./components/layout/Alert";
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import User from "./components/pages/User";
-import NotFound from "./components/pages/NotFound";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import User from "./pages/User";
+import NotFound from "./pages/NotFound";
 import { GithubProvider } from "./context/github/GithubContext";
 import { AlertProvider } from "./context/alert/AlertContext";
 
